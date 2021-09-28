@@ -1,0 +1,37 @@
+
+th {
+    text-align: center;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+ul#exam li {
+    display:inline;
+}
+
+#boxes {
+    width:100%;
+    display: flex;
+}
+
+#boxes .box {
+    height: 40px;
+    margin: 1px;
+    width: 50px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid Black;
+    background-color: #ffd600;
+    color: black;
+}
+
+#inner {
+    display: table;
+    margin: 0 auto;
+}
+  
+#outer {
+    margin-top: 30px;
+}

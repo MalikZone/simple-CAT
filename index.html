@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>COMPUTER ASSISTED TEST</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+    <h1>SELAMAT DATANG</h1>
+    <p>Jawab Dengan Benar dan Teliti</p> 
+</div>
+  
+<div class="container">
+    <div class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-8">
+            <table class="table table-success table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">8</th>
+                        <th scope="col">7</th>
+                        <th scope="col">2</th>
+                        <th scope="col">5</th>
+                        <th scope="col">9</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">A</th>
+                        <th scope="row">B</th>
+                        <th scope="row">C</th>
+                        <th scope="row">D</th>
+                        <th scope="row">E</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-sm-2">
+        </div>
+    </div>
+    <div class="row" id="outer">
+        <div class="col-sm-12">
+            <div id="inner">
+                <ul id="exam">
+                    <li>8</li>
+                    <li>7</li>
+                    <li>5</li>
+                    <li>9</li>
+                </ul>    
+            </div>
+        </div>
+        <div class="col-sm-12">
+            <div id="inner">
+                <div id="boxes">
+                    <a href="#" onclick="answer(this)" data-value="8">
+                        <div class="box">A</div>
+                    </a>
+                    <a href="#" onclick="answer(this)" data-value="7">
+                        <div class="box">B</div>
+                    </a>
+                    <a href="#" onclick="answer(this)" data-value="2">
+                        <div class="box">C</div>
+                    </a>
+                    <a href="#" onclick="answer(this)" data-value="5">
+                        <div class="box">D</div>
+                    </a>
+                    <a href="#" onclick="answer(this)" data-value="9">
+                        <div class="box">E</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
